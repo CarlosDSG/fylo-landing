@@ -1,0 +1,101 @@
+@media screen and (min-width: 1200px) {
+    main {
+        margin-bottom: 7rem;
+    }
+    .main__article {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: start;
+    }
+    .main__article h2 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        margin-top: 2em;
+    }
+    .main__article p {
+        margin: 1rem 0;
+        font-size: 17px;
+    }
+    .main__article--inf {
+        margin-right: 20px;
+    }
+    .form--grid {
+        display: grid;
+        grid-template: auto / repeat(5, 1fr);
+        grid-column-gap: 15px;
+        max-width: 100%;
+        margin: 0;
+    }
+    .email-input {
+        margin: 0;
+    }
+    .input--grid {
+        grid-column: 1/4;
+    }
+    .boton--grid {
+        grid-column: 4/6;
+    }
+    .productive {
+        margin-top: 2rem;
+        background-position: top;
+    }
+    .curve {
+        width: 100%;
+        height: 110px;
+        background: url(../images/bg-curve-desktop.svg) no-repeat;
+        background-position: top;
+    }
+    .productive__container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .productive__text {
+        width: 80vw;
+        margin-right: 4rem;
+    }
+    .productive__text h3 {
+        margin: 0;
+        margin-bottom: 1.7rem;
+        text-align: start;
+        font-size: 2rem;
+    }
+    .productive__text p {
+        color: hsl(243, 87%, 12%);
+        font-size: 17px;
+    }
+    .fylo-works {
+        justify-content: start;
+    }
+    .box {
+        width: 350px;
+    }
+    .early {
+        display: flex;
+        justify-content: space-between;
+    }
+    .early-text {
+        width: 50%;
+        text-align: start;
+        font-size: 19px;
+    }
+    .early #sent-email {
+        margin: 0;
+        padding: 0;
+    }
+    .early button {
+        display: block;
+        width: auto;
+        margin-top: 1em;
+        margin-right: 8em;
+    }
+    footer nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer nav ul {
+        margin: 0;
+    }
+    .social__menu {
+        align-items: flex-start;
+    }
+}
